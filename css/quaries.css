@@ -430,11 +430,16 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .vission {
-        height: 355px;
+        height: 422px;
+        width: 319px;
+        padding: 10px;
     }
 }   
+@media only screen and(max-width:414px){
+
+}
 
 
 
@@ -535,8 +540,7 @@
         font-size: 25px;
     }
     .row4 .explore {
-        width: 293px;
- 
+        width: 251px;
     }
     .row4 {
         display: flex;
@@ -600,46 +604,60 @@
 
    /* --------------------------------------INDEX2 ---------------------------- */
    .register {
-        width: 400px;
-         height: 600px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
+    width: 320px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}  
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 550px;
+    width: 321px;
+    background-color: #509739;
+    border-top: 1px solid #509739;
+}
 
-   }   
-   .footer2{
-        display: flex;
-        flex-direction: column;
-        padding-left: 0px;
-        text-align: center;
-        margin-top: 550px;
-        width: 400px;
-        background-color:#509739;
-        border-top: 1px solid #509739;
-   }
+
+
+input[type=text], input[type=email], input[type=email], input[type=tel] {
+    width: 242px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #509739;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #509739;
+    outline: none;
+    background: transparent;
+}
    .footer2 img {
         width: 286px;
         height: 69px;
         margin-left: -12px;
     }
-   .imageside {
+
+    .imageside {
         background-color: white;
-        width: 400px;
+        width: 296px;
         margin-top: 448px;
         height: 420px;
+        margin-left: 11px;
         border-radius: 42px;
         background-size: cover;
-        background-size: 400px 422px;
-   }
-   .formside{
+        background-size: cover;
+    }
+    .formside {
         background-color: white;
-        width: 400px;
+        width: 320px;
         height: 500px;
         border-radius: 0px;
         text-align: unset;
         margin-top: 92px;
-
-   }
+    }
    .lab{
        display: none;
    }
@@ -655,8 +673,7 @@
         margin-left: 50px;
     }
     .form-btn {
-        margin-left: 132px;
-  
+        margin-left: 97px;
     }
     placeholder{
         text-align: center;
@@ -719,7 +736,12 @@
     }
     .our-team {
         text-align: center;
-        padding-top: 40px;
+        padding-top: 99px;
+    }
+    .our-team h1 {
+        margin: 50px 0px;
+        color: #509739;
+        font-size: 30px;
     }
     .team {
         width: 253px;
