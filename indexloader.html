@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loader-container{
+        
+            position: absolute;
+        }
+        .loader{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          font-size: 50px;
+          letter-spacing: 20px;
+        
+        
+        }
+        span{
+            position: relative;
+        }
+        
+        .loader :nth-child(1){
+            animation: spans infinite 1.5s 1s;
+        }
+        @keyframes spans{
+            0%{
+                opacity: 0; top: 0;
+            }
+            50%{
+                opacity: 1;  top: 40px;
+
+            }
+           100%{
+                opacity: 0;
+                color: #509739;
+                top: 0;
+              
+            }
+        }
+        .loader :nth-child(2){
+            animation: span2 infinite 1.5s 1s;
+        }
+        @keyframes span2{
+            0%{
+                opacity: 0; top: 0;
+            }
+            50%{
+                opacity: 1;  top: -20px;
+
+            }
+           100%{
+                opacity: 0;
+                color: #509739;
+                top: 20px;
+              
+            }
+        }
+        .loader :nth-child(3){
+            animation: span3 infinite 1.5s 1s;
+        }
+        @keyframes span3{
+            0%{
+                opacity: 0; top: 0px;
+            }
+            50%{
+                opacity: 1;  top: 20px;
+
+            }
+           100%{
+                opacity: 0;
+                color: #509739;
+                top: -20px;
+              
+            }
+        }
+        .loader :nth-child(4){
+            animation: span2 infinite 1.5s 1s;
+            }
+        @keyframes span4{
+            0%{
+                opacity: 0; top: 0;
+            }
+            50%{
+                opacity: 1;  top: -20px;
+
+            }
+            100%{
+                opacity: 0;
+                color: #509739;
+                top: 20px;
+            
+            }
+        }
+        .loader :nth-child(5){
+            animation: span5 infinite 1.5s 1s;
+        }
+        @keyframes span5{
+            0%{
+                opacity: 0; top: 0;
+            }
+            50%{
+                opacity: 1;  top: 40px;
+
+            }
+           100%{
+                opacity: 0;
+                color: #509739;
+                top: 0;
+              
+            }
+        }
+        .loader :nth-child(6){
+            animation: span6 infinite 1.5s 1s;
+        }
+        @keyframes span6{
+            0%{
+                opacity: 0; top: 0;
+            }
+            50%{
+                opacity: 1;  top: -20px;
+
+            }
+           100%{
+                opacity: 0;
+                color: #509739;
+                top: 20px;
+              
+            }
+        }
+        .loader :nth-child(7){
+            animation: span3 infinite 1.5s 1s;
+        }
+        @keyframes span7{
+            0%{
+                opacity: 0; top: 0px;
+            }
+            50%{
+                opacity: 1;  top: 20px;
+
+            }
+           100%{
+                opacity: 0;
+                color: #509739;
+                top: -20px;
+              
+            }
+        }
+        .loader :nth-child(8){
+            animation: span8 infinite 1.5s 1s;
+            }
+        @keyframes span8{
+            0%{
+                opacity: 0; top: 0;
+            }
+            50%{
+                opacity: 1;  top: -20px;
+
+            }
+            100%{
+                opacity: 0;
+                color: #509739;
+                top: 20px;
+            
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="loader-contaner">
+        <div class="loader">
+            <span>P</span>
+            <span>A</span>
+            <span>K</span>
+            <span>I</span>
+            <span>F</span>
+            <span>A</span>
+            <span>R</span>
+            <span>M</span>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+setTimeout(function(){        
+    $('.loader-contaner').fadeOut();
+    $('.loader').delay(150).fadeOut('slow'); 
+}, 10000);
+        
+</script>
