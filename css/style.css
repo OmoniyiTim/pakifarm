@@ -25,7 +25,7 @@ nav{
     position: fixed;
     top: 0;
     background-color: white;
-    width: 100%;
+  
 }
 ul>li .nav-link{
     color: black!important;
@@ -427,7 +427,7 @@ ul>li .nav-link{
     padding-top: 30px;
 }
 .footer-item{
-    padding-left: 75px;
+    padding-left: 0px;
 }
 .footer-item1{
     padding-left: 160px;
@@ -715,6 +715,7 @@ input[type=text],input[type=email],input[type=email],input[type=tel]:hover{
 }
 .our-team{
     text-align: center;
+    padding-top: 60px;
 }
 .our-team h1{
  margin: 50px 0px;
