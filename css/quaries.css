@@ -1,537 +1,358 @@
 @media only screen and (max-width:1200px){
-    nav{
-        position: fixed;
-        top: 0;
-        background-color: white;
-       
-    }
     #navdirect {
-        text-align: center;
-        margin: 0 50px;
+        margin-left: 395px;
     }
-    .logo {
-        width: 205px;
-        height: 58px;
-        padding-left: -18px;
-        padding: 0;
-        margin-left: -11px;
+    .plant {
+        padding-left: 87px;
+        transition: all 1s;
     }
-    .sec1{
-       margin: 0; 
-    }
-    .content {
-        padding: 100px 18px 0 10px;
-        text-align: center;
-    }
-    .content h1 {
-        color: white;
-        font-size: 30px;
-        font-weight: 700;
-   }
-   .content p {
-        color: white;
-        font-size: 18px;
-        font-weight: 200;
-        width: 292px;
-        height: 127px;
-    }
-    .sec2 .cont-btn{
-      margin:20px 0 0 0 ;
-      margin-left: 100px;
-    }
-  
-     .plant,.harvest ,.Processed {
-        padding-left: 12px;
-    }
-    .services-submsg{
-        display: flex;
-
-    
-    }
-    .services-submsg2{
-        display: flex;
-        margin-top: -30px;
-    
-    }
-    .testimony {
-        margin-bottom: 90px;
+    .review .testi-1 {
+        width: 367px;
+        height: 305px;
+ 
     }
     .review .testi-1 img {
-        left: 55px;
+        width: 128px;
+        height: 120px;
+        position: relative;
+        left: 65px;
+   
     }
+    .footer-item {
+        padding-left: 70px;
+    }
+    .footer-item img {
+        width: 190px;
+        height: 45px;
+    }
+
+    .footer-item1 {
+        padding-left: 100px;
+        margin-top: 22px;
+        color: white;
+    }
+    .footer-item2 {
+        padding-left: 200px;
+        margin-top: 22px;
+        color: white;
+    }
+    /* ==========================INDEX-2================================= */
+
+    .footer2 img {
+        width: 276px;
+        height: 69px;
+    }
+    .footer-itemb {
+        padding-left: 100px;
+        margin-top: 22px;
+        color:#509739;
+    }
+    .footer-itemc {
+        padding-left: 200px;
+        margin-top: 22px;
+        color:#509739;
+    }
+
+
+
+
+
+
+    /* ==========================INDEX-3================================= */
+    .vission {
+        width: 500px;
+        border: 2px solid green;
+        margin-left: 72px;
+        margin-right: 75px;
+        text-align: center;
+        border-radius: 52px;
+    }
+ 
     
-    .review .testi-1 {
-        width: 241px;
-        height: 310px;
-        background-color: white;
-        margin: 0 0 85px 0;
-        border-radius: 10px;
-        border: 1px solid transparent;
-        box-shadow: 1px 1px 10px grey;
-    }
-    .review .testi-1 .text p {
-       text-align: center;
-    }
-    .youvideo {
-         margin-right: 0px;
-        border-radius: 41px;
-        width: 264px;
-        height: 223px;
-    }
-    .row3 {
-        background-color: #509739;
-        height: 283px;
+}
+
+
+
+
+
+@media only screen and (max-width:1023px){
+    #navdirect {
+        margin-left: 38px;
         text-align: center;
     }
-    .row3 h1 {
-        color: white;
-        padding-top: 20px;
-        font-size: 25px;
+    .services-submsg img {
+        width: 237px;
+        height: 240px;
+
     }
-    .row4 .explore {
-        width: 293px;
- 
+    .services-submsg2 img {
+        width: 237px;
+        height: 240px;
+
     }
     .row4 {
         display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+  
+        margin-left: 49px;
+    }
+    .youvideo {
+
+        width: 360px;
+        height: 250px;
+    }
+    .row5 img {
+        width: 152px;
+        height: 85px;
+        margin-right: 14px;
+    }
+    .review .testi-1 {
+        width: 341px;
+        height: 354px;
+        margin: 85px 19px 30px 76px;
+    }
+    .review .testi-1 img {
+        width: 109px;
+        height: 110px;
+        position: relative;
+        left: 66px;
+    }
+
+  /* ==========================INDEX-2================================= */
+    .lab{
+        display: none;
+    }
+    .phone {
+        margin-left: 69px;
+    }
+    .mail {
+        margin-left: 67px;
+    }
+    .form-btn {
+        margin-left: 183px;
+    }
+ 
+
+    /* ==========================INDEX-3================================= */
+
+    .team {
+        width: 202px;
+        height: 379px;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin-bottom: 100px;
+        margin-right: 24px;
+        text-align: center;
+    }
+    .farm-gallary .gal img {
+        width: 249px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .farm-gallary .gal {
+        width: 250px;
+        height: 300px;
+        background-color: white;
+        border-radius: 30px;
+        margin-bottom: 49px;
+        margin-right: 50px;
+    }
+    .footer-item1 {
+        padding-left: 100px;
+        margin-top: 22px;
+        color: white;
+    }
+    .footer-item2 {
+        padding-left: 100px;
+        margin-top: 22px;
+        color: white;
+    }
+
+}
+
+
+@media only screen and (max-width:768px){
+    .navbar {
+        padding: 0rem;
+    }
+    .servies {
+        margin: 30px 0 30px 64px;
+    }
+    .services-submsg img {
+        width: 205px;
+        height: 240px;
+    }
+    .services-submsg2 img {
+        width: 205px;
+        height: 240px;
+    }
+    .plant, .harvest {
+        margin-right: -8px;
+    }
+    .row4 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: 49px;
         flex-direction: column;
     }
-    .row5 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 20px 0;
-        align-items: center;
-        text-align: center;
+    .youvideo {
+     margin: 0;
     }
     .row5-logo {
         display: flex;
         flex-direction: column;
     }
-    .row5 img {
-        width: 199px;
-        height: 119px;
-        margin-right: 0;
-        padding: 6px;
-    }
-    .review{
+    .review {
         display: flex;
+        animation-name: conte;
+        animation-duration: 4s;
         flex-direction: column;
         align-items: center;
     }
-    .footer{
+    .review .testi-1 img {
+        width: 109px;
+        height: 110px;
+        position: relative;
+        left: 113px;
+    }
+    .footer {
         display: flex;
+        background-color: #509739;
+        line-height: 40px;
+        padding-top: 30px;
         flex-direction: column;
-        padding-left: 25px;
-   
-    }
-    img {
-        width: 200px;
-    }
-    .footer-contact {
-        line-height: 19px;
-        margin-left: 12px;
-        color: white;
     }
     .footer-item {
-      padding-left: 0px;
+        padding-left: 63px;
     }
-    .footer-item1 {
-         padding-left: 12px;
-         margin-top: 0px; 
-        color: white;
-    }
-    .footer-item2 {
-        padding-left: 12px;
-        margin-top: 0px; 
-       color: white;
-   }
-   .plant{
-      padding-left:30px;
-
-  }
-    .plant,.harvest{  
-        margin-right: 30px;
-
-    }
-    label.lab {
-        margin-left: 33px;
-    }
-    .footer-itemf {
-        padding-left: 10px;
-    }
-    .footer-itemc {
-        padding-left: 156px;
-        margin-top: 67px;
-        color: #509739;
-    }
-    .form-btn {
-        margin-left: 205px;
-    }
-}
-@media only screen and (max-width:1023px){
-  
-    #navdirect {
-        text-align: center;
-        margin: 0 50px;
-    }
-    .logo {
-        width: 241px;
-        height: 58px;
-        padding-left: -18px;
-        padding: 0;
-        margin-left: -11px;
-    }
-    span::before{
-        font-size: 30px;
-        font-weight: 600;
-      content:" ";
-      animation-name: animate;
-      animation-duration: 8s;
-      animation-iteration-count: infinite; 
-    }
-    .services-submsg{
-        display: flex;
-
-    
-    }
-    .services-submsg2{
-        display: flex;
-
-    
-    }
-    
-    /* --------------------------------------INDEX3 ---------------------------- */
-
-    .vission {
-        height: 355px;
-        margin: 0;
-    }
-    .team img {
-        border-radius: 50%;
-        margin: 20px;
-        width: 75px;
-    }
-
-}
-
-@media only screen and (max-width:768px){
-    #navdirect {
-        text-align: center;
-        margin: 0 50px;
-    }
-    .logo {
-        width: 241px;
-        height: 58px;
-        padding-left: -18px;
-        padding: 0;
-        margin-left: -11px;
-    }
-    span::before{
-        font-size: 30px;
-        font-weight: 600;
-      content:" ";
-      animation-name: animate;
-      animation-duration: 8s;
-      animation-iteration-count: infinite; 
-    }
-    .sec1{
-        margin: 0; 
-     }
-     .content {
-         padding: 100px 20px 0 37px;
-        
-     }
-     .content h1 {
-         color: white;
-         font-size: 30px;
-         font-weight: 700;
-        }
-        .content p{
-            color: white;
-            font-size: 18px;
-            font-weight: 200;
-        }
-     .sec2 .cont-btn{
-       margin-left:31px;
-      
-     }
-   
-     .plant,.harvest ,.Processed {
-        padding-left: 12px;
-    }
-    .services-submsg{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-    }
-    .services-submsg2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: -30px;
-    
-    }
-  
- 
-    .plant{
-        padding-left:0px;
-    
-    }
-    .plant,.harvest{  
-        margin-right: 0px;
-    
-    }
-    .row3 {
-        background-color: #509739;
-        height: 188px;
-        text-align: center;
-    }
-    .row4 .explore {
-        width: 436px;
-    }
-    .footer2{
-        display: flex;
-        flex-direction: column;
-        padding-left: 0px;
-        text-align: center;
-        margin-top: 550px;
-        width: 400px;
-        background-color:#509739;
-        border-top: 1px solid #509739;
-   }
-  
-
-    /* --------------------------------------INDEX2 ---------------------------- */
-    .register {
-        width: 768px;
-        height: 600px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-
-    }   
-    .footer2{
-        display: flex;
-        flex-direction: column;
-        padding-left: 0px;
-        text-align: center;
-        margin-top: 550px;
-        width: 768px;
-        background-color:#509739;
-        border-top: 1px solid #509739;
-    }
-    .footer2 img {
-        width: 286px;
-        height: 69px;
-        margin-left: -12px;
-    }
-    .imageside{
-        background-color: white;
-        width: 768px;
-        margin-top: 448px;
-        height: 420px;
-        border-radius: 42px;
-        
-        flex-direction: row;
-        padding-top: 30px;
-        background-image: url(../images/paki-bg2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-size: 768px 422px;
-    
-    }
-    
-    
-
-    .formside {
-        background-color: white;
-        width: 768px;
-        height: 500px;
-        border-radius: 0px;
-        text-align: center;
-        margin-top: 92px;
-    }
-    .lab{
-    display: none;
-    }
-    .data {
-    margin-left: 50px;
+    .footer-item img {
+     
+        width: 199px;
+        margin-left: 20px;
 
     }
 
-    .phone{
-        margin-left: 50px;
-    }
-    .mail{
-        margin-left: 50px;
-    }
-    .form-btn {
-        margin-left: 0px;
-
-    }
-    placeholder{
-        text-align: center;
-    }
-    .footer-contact2 {
-        line-height: 19px;
-        margin-left: 12px;
-        color: white;
-    }
-    .footer-itemb li{
-        list-style-type: none;
-    }
-    .footer-itemb li a{
-        color: white;
-    }
-    .footer-itemb{
-        padding-left: 15px;
-        margin-top: 30px;
-        color: white;
-    }
-    .footer-itemc{
-        padding-left: 15px;
-        margin-top: 30px;
-        color: white;
-
-    }
-
-    
-    /* --------------------------------------INDEX3 ---------------------------- */
-    .farm-gallary {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin: 0;
-        align-items: center;
-    }
-    .farm-gallary .gal {
-        margin-right: 0px; 
-    }
+    /* ==========================INDEX-3================================= */
     .seC2 {
-        margin: 120px 0 287px 0;
+        justify-content: center;
+        margin: 174px auto;
         height: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .team {
-        width: 296px;
-        margin-right: 0px; 
-        text-align: center;
     }
     .team-container {
         display: flex;
         justify-content: center;
-        margin-left: 0px;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .farm-gallary {
+        display: flex;
+        justify-content: center;
+        margin-left: 35px;
         flex-direction: column;
         align-items: center;
     }
-
-    .vission {
-        height: 422px;
-        width: 319px;
-        padding: 10px;
+    .footer-item1 {
+        padding-left: 80px;
+        margin-top: 22px;
+        color: white;
     }
-}   
-@media only screen and(max-width:414px){
+    .footer-item2 {
+        padding-left: 80px;
+        margin-top: 22px;
+        color: white;
+    }
+    
+    /* ==========================INDEX-2================================= */
+    .form-btn {
+        margin-left: 140px;
+    }
+    .footer2 {
+        display: flex;
+        background-color: white;
+        line-height: 40px;
+        padding-top: 30px;
+        flex-direction: column;
+    }
+
+    .footer2 img {
+        width: 250px;
+        height: 69px;
+    }
+    .footer-itemb {
+        padding-left: 80px;
+        margin-top: 22px;
+        color:#509739;
+    }
+    .footer-itemc {
+        padding-left: 80px;
+        margin-top: 22px;
+        color: #509739;
+    }
 
 }
 
 
 
-
-
-
-@media only screen and (max-width:320px){
-    nav{
-        position: fixed;
-        top: 0;
-        background-color: white;
-       
-    }
-    #navdirect {
-        text-align: center;
-        margin: 0 50px;
-    }
+@media only screen and (max-width:500px){
     .logo {
-        width: 205px;
+        width: 180px;
         height: 58px;
-        padding-left: -18px;
-        padding: 0;
-        margin-left: -11px;
-    }
-    .sec1{
-       margin: 0; 
+        padding-left: 5px;
     }
     .content {
-        padding: 100px 18px 0 10px;
-        text-align: center;
+        padding: 217px 0 0 40px;
     }
     .content h1 {
         color: white;
-        font-size: 30px;
+        font-size: 31px;
         font-weight: 700;
-   }
-   .content p {
+    }
+    .content p {
         color: white;
         font-size: 18px;
         font-weight: 200;
         width: 292px;
-        height: 127px;
+        height: 50px;
     }
-    .sec2 .cont-btn{
-      margin:20px 0 0 0 ;
-      margin-left: 100px;
+    .sec2 .cont-btn {
+        border-radius: 12px;
+        margin-top: 10px;
+        margin-left: 118px;
     }
-  
-     .plant,.harvest ,.Processed {
-        padding-left: 12px;
+    .plant {
+        padding-left: 0;
+        transition: all 1s;
     }
-    .services-submsg{
+    .servies {
+        margin: 30px 0 30px 64px;
+        margin: 50px;
+    }
+ 
+    .services-submsg {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    
+        align-items: center;
     }
-    .services-submsg2{
+ 
+    .services-submsg2 {
         display: flex;
-        justify-content: center;
         flex-direction: column;
-        margin-top: -30px;
-    
-    }
-    .testimony {
-        margin-bottom: 90px;
-    }
-    .review .testi-1 img {
-        left: 55px;
-    }
-    
-    .review .testi-1 {
-        width: 241px;
-        height: 310px;
-        background-color: white;
-        margin: 0 0 85px 0;
-        border-radius: 10px;
-        border: 1px solid transparent;
-        box-shadow: 1px 1px 10px grey;
-    }
-    .review .testi-1 .text p {
-       text-align: center;
-    }
-    .youvideo {
-         margin-right: 0px;
-        border-radius: 41px;
-        width: 264px;
-        height: 223px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
     }
     .row3 {
         background-color: #509739;
-        height: 283px;
+        height: 230px;
         text-align: center;
     }
     .row3 h1 {
@@ -539,222 +360,130 @@
         padding-top: 20px;
         font-size: 25px;
     }
-    .row4 .explore {
-        width: 251px;
-    }
     .row4 {
         display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        margin-left: 0px;
         flex-direction: column;
     }
-    .row5 {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 20px 0;
-        align-items: center;
+    .row4 .explore {
+        width: 274px;
         text-align: center;
+        color: #509739;
+        font-weight: 800;
+        animation-name: slideInLeft;
+        animation-duration: 3s;
     }
-    .row5-logo {
-        display: flex;
-        flex-direction: column;
+    .review .testi-1 img {
+        width: 88px;
+        height: 87px;
+        position: relative;
+        left: 59px;
+    }
+    .review .testi-1 {
+        width: 211px;
+        height: 354px;
+        margin: 65px 10px;
     }
     .row5 img {
-        width: 199px;
-        height: 119px;
-        margin-right: 0;
-        padding: 6px;
+        width: 137px;
+        height: 66px;
+        margin-right: 0px;
+        padding: 7px;
     }
-    .review{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .footer{
-        display: flex;
-        flex-direction: column;
-        padding-left: 25px;
-   
-    }
-    img {
-        width: 200px;
-    }
-    .footer-contact {
-        line-height: 19px;
-        margin-left: 12px;
-        color: white;
-    }
+
     .footer-item {
-      padding-left: 0px;
+        padding-left: 23px;
+    }
+    .footer-contact p:nth-child(1) {
+        line-height: 24px;
+        margin-top: 30px;
     }
     .footer-item1 {
-         padding-left: 12px;
-         margin-top: 0px; 
+        padding-left: 49px;
+        margin-top: 30px;
         color: white;
     }
     .footer-item2 {
-        padding-left: 12px;
-        margin-top: 0px; 
-       color: white;
-   }
-   
-
-
-
-
-
-   /* --------------------------------------INDEX2 ---------------------------- */
-   .register {
-    width: 320px;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column-reverse;
-}  
-.footer2 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 0px;
-    text-align: center;
-    margin-top: 550px;
-    width: 321px;
-    background-color: #509739;
-    border-top: 1px solid #509739;
-}
-
-
-
-input[type=text], input[type=email], input[type=email], input[type=tel] {
-    width: 242px;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #509739;
-    margin-bottom: 20px;
-    border: none;
-    border-bottom: 1px solid #509739;
-    outline: none;
-    background: transparent;
-}
-   .footer2 img {
-        width: 286px;
-        height: 69px;
-        margin-left: -12px;
+        padding-left: 49px;
+        margin-top: 30px;
+        color: white;
     }
+    .youvideo {
+        width: 240px;
+        height: 250px;
+    }
+ /* ==========================INDEX-2================================= */
+
+    .register {
+        width: 500px;
+        height: 600px;
+        background-color: #509739;
+        margin-top: 79px;
+        padding-top: 54em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-bottom: 191px;
+    }
+
+
+    .formside {
+        width: 415px;
+        height: 580px;
+        text-align: start;
+        margin-top: 51px;
+        margin-bottom: 906px;
+        padding-bottom: 118em;
+        margin-left: 42px;
+        border-radius: 20px;
+    }
+
 
     .imageside {
-        background-color: white;
-        width: 296px;
-        margin-top: 448px;
-        height: 420px;
-        margin-left: 11px;
-        border-radius: 42px;
-        background-size: cover;
-        background-size: cover;
-    }
-    .formside {
-        background-color: white;
-        width: 320px;
-        height: 500px;
-        border-radius: 0px;
-        text-align: unset;
-        margin-top: 92px;
-    }
-   .lab{
-       display: none;
-   }
-   .data {
-       margin-left: 50px;
- 
-   }
 
-    .phone{
-        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        background-image: url(../images/paki-bg2.jpg);
+        background-repeat: no-repeat;
+        width: 391px;
+        margin-top: 1659px;
+        margin-left: 60px;
+        border-radius: 20px;
     }
-    .mail{
-        margin-left: 50px;
-    }
-    .form-btn {
-        margin-left: 97px;
-    }
-    placeholder{
+    .footer2 {
+        display: flex;
+        background-color: white;
+        line-height: 40px;
+        padding-top: 30px;
+        flex-direction: column;
+        width: 406px;
         text-align: center;
-    }
-    .footer-contact2 {
-        line-height: 19px;
-        margin-left: 12px;
-        color: white;
-    }
-    .footer-itemb li{
-        list-style-type: none;
-    }
-    .footer-itemb li a{
-        color: white;
-    }
-    .footer-itemb{
-        padding-left: 15px;
-        margin-top: 30px;
-        color: white;
-    }
-    .footer-itemc{
-        padding-left: 15px;
-        margin-top: 30px;
-        color: white;
 
     }
-
-
+    /* ==========================INDEX-3================================= */
     .conten {
-        padding: 199px 0 0 3px;
-        text-align: center;
+        padding: 221px 0 0 40px;
     }
     .conten h1 {
         color: white;
-        font-size: 35px;
+        font-size: 39px;
         font-weight: 700;
     }
-    .conten p {
-        color: white;
-        font-size: 20px;
-        font-weight: 200;
-        width: 309px;
-    }
-    .seC1 {
-        position: relative;
-        background-image: url(../images/paki-me1.jpg);
-        background-repeat: no-repeat;
-        height: 405px;
-
-    }
-
     .vission {
-        width: 281px;
+        width: 278px;
+        border: 2px solid green;
+        text-align: center;
         border-radius: 52px;
-        margin: 0;
+ 
+        margin: 120px auto 10px auto;
     }
+   
     .seC2 img {
-        width: 298px;
+        width: 288px;
         height: 300px;
     }
-    .our-team {
-        text-align: center;
-        padding-top: 99px;
-    }
-    .our-team h1 {
-        margin: 50px 0px;
-        color: #509739;
-        font-size: 30px;
-    }
-    .team {
-        width: 253px;
-        margin-right: 0px;
-        text-align: center;
-    }
-    .team-container{
-        margin-left: 15px;
-    }
-    .farm-gallary .gal img {
-        width: 256px;
- 
-    }
-    
-
 }
+
